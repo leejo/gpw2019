@@ -44,7 +44,7 @@
                     
                     <li><a href="[% make_uri('preise.html') %]"><t><de>Ticket-Preise</de><en>Ticket Prices</en></t></a></li>
 
-
+[% IF global.request.user.has_registered %]
                     <li>
                         <a href="[% make_uri('stats') %]"><t><de>Teilnehmer</de><en>Attendees</en></t></a>
                         <ul>
@@ -56,6 +56,7 @@
                             </li>                        
                         </ul>
                     </li> 
+[% END %]
 
                     
                     <li><a href="[% make_uri('hotels.html') %]"><t><de>Hotels &amp; Anreise</de><en>Hotels &amp; Arrivals</en></t></a></li>
