@@ -1,4 +1,51 @@
 [% WRAPPER ui title = global.conference.name %]
+<script type='application/ld+json'>
+{
+  "@context": "http://www.schema.org",
+  "@type": "Event",
+  "name": "Deutscher Perl-Workshop, München 2019",
+  "url": "http://act.yapc.eu/gpw2019/",
+  "description": "Der Deutsche Perl-Workshop ist eine jährlich in Deutschland stattfindende Konferenz von und für Entwickler der Programmiersprache Perl.",
+  "startDate": "2019-03-06T09:30",
+  "endDate": "2019-03-08T19:00",
+  "location": {
+    "@type": "Place",
+    "name": "Hochschule München",
+    "sameAs": "https://www.hm.edu/",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Lothstr. 34",
+      "addressLocality": "München",
+      "postalCode": "D-80335",
+      "addressCountry": "Deutschland"
+    }
+  },
+  "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": 250,
+    "lowPrice": 50,
+    "offerCount": 3,
+    "offers": [{
+      "@type": "Offer",
+      "description": "Ticket",
+      "url": "http://act.yapc.eu/gpw2019/preise.html",
+      "price": "70",
+      "priceCurrency": "EUR"
+    },{
+      "@type": "Offer",
+      "description": "Firmenticket",
+      "url": "http://act.yapc.eu/gpw2019/preise.html",
+      "price": "250",
+      "priceCurrency": "EUR"
+    },{
+      "@type": "Offer",
+      "description": "Studententicket",
+      "url": "http://act.yapc.eu/gpw2019/preise.html",
+      "price": "50",
+      "priceCurrency": "EUR"
+    }]
+  }
+}
 		<h2>
 			<t>
 				<de>21. Deutscher Perl-Workshop 2019 M&uuml;nchen</de>
