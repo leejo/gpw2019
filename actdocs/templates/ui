@@ -34,7 +34,7 @@
 
   <body class="no-fixed-header">
 
-    <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+    <a href="#content" class="sr-only sr-only-focusable"><t><en>Skip to main content</en><de>Zum Inhalt springen</de></t></a>
 
     <header id="header" class="block rowx">
       <div class="headerContent col-xs-12 no-float">
@@ -137,12 +137,14 @@
           </ul>
         </section>
         -->
+        <!-- Eliminiert solange hier "dummy" auftaucht - haj 2018-11-21
         <section>
           <h2><t><de>Andere ACT Konferenzen</de><en>Other ACT conferences</en></t></h2>
           <ul class="mainnav">
             [% PROCESS menus/act_confs %]
           </ul>
         </section>
+        -->
       </aside>
 
 
