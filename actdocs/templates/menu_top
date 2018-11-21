@@ -131,7 +131,7 @@
                 [% END %]
             </li>
             <li class="langchanger lv1"><!--todo:languagechanger link via perl-->
-                <a href="?<t><de>language=en</de><en>language=de</en></t>"><span class="glyphicon glyphicon-flag"></span> <t><de>EN</de><en>DE</en></t></a>
+                <a href="?<t><de>language=en</de><en>language=de</en></t>"><span class="glyphicon glyphicon-flag"></span><span class="sr-only"><t><de>Sprache ändern</de><en>Change language</en></t></span> <t><de>EN</de><en>DE</en></t></a>
             </li>
         </ul>
     </div>
