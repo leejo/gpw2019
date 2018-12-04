@@ -101,9 +101,9 @@
 			<span class="conference when"><t><de></de><en></en></t></span>
 		</div>
 
-[% IF global.config.registration_open %]
+[% IF global.config.registration_open AND NOT global.request.user.has_registered %]
 		<p>
-			<a href="register" class="btn btn-primary btn-block" role="button"[%# active btn-gpw aria-pressed="true" %]>
+			<a href="[% make_uri('register') %]" class="btn btn-primary btn-block" role="button"[%# active btn-gpw aria-pressed="true" %]>
 				<t>
 					<de>Jetzt für den Workshop anmelden</de>
 					<en>Signup for attendance now</en>
@@ -165,7 +165,8 @@
                   <de>Vorabend-Treffen</de>
                   <en>Pre-conference meeting</en>
                 </t>
-              </a> - 
+              </a>
+              <t><de>und</de><en>and</en></t>
               <a href="confticket.html">
                 <t>
                   <de>Konferenzticket für den Nahverkehr</de>
