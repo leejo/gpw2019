@@ -12,7 +12,8 @@
     <meta name="application-name" content="ACT GPW2019">
     <meta name="author"           content="Frankfurt Perlmongers">
     <meta name="generator"        content="act.yapc.eu">
-
+    <link rel="alternate" type="application/atom+xml" title="[% global.conference.name %]"
+          href="[% global.request.base_url %][% make_uri_info( 'atom', global.request.language ) %].xml">
 
   	<!-- Latest compiled and minified CSS -->
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
