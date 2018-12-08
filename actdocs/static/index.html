@@ -192,7 +192,7 @@
 [% IF news.size %]
 				<h3>
 				  <t><de>Aktuellste Neuigkeiten</de><en>Latest news</en></t>
-                  <a href="atom.[% global.request.language %].xml"><img src="images/feed-icon-14x14.png" alt="Atom feed"></a>
+                  <a href="atom/[% global.request.language %].xml"><img src="images/feed-icon-14x14.png" alt="Atom feed"></a>
 				</h3>
 				<div class="newsblock clearfixafter">
 [% FOREACH item = news %]
