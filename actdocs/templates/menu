@@ -8,5 +8,7 @@
     [% PROCESS menus/events %]
     [% PROCESS menus/treasurer %]
     [% PROCESS menus/admin %]
-    [% PROCESS menus/users %]   
+    [% IF global.request.user %]
+        [% PROCESS menus/users %]
+    [% END %]
 [% END %]
