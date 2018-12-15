@@ -19,9 +19,11 @@
         <en>Signup for attendance now</en>
       </t>
     </a>
-    <a href="[% make_uri('newtalk') %]" class="btn btn-primary btn-block" role="button">
+    [% IF NOT global.request.user %]
+    <a href="[% make_uri('main') %]" class="btn btn-primary btn-block" role="button">
       Login
     </a>
+    [% END %]
   </div>
 [% ELSE %]
 <form method="POST" action="[% global.request.r.uri %]" id="user-search">
