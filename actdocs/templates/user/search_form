@@ -24,7 +24,7 @@
     </a>
   </div>
   [% RETURN # Leave this template immediately %]
-[% END -$]
+[% END -%]
 <form method="POST" action="[% global.request.r.uri %]" id="user-search">
 
 <fieldset>

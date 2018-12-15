@@ -24,7 +24,7 @@
     </a>
   </div>
   [% RETURN # Leave this template immediately %]
-[% END -$]
+[% END -%]
 <p>
  [% loc('There are n registered people', stats.users, stats.countries.size, stats.pm.size, stats.committed) %]
 </p>
