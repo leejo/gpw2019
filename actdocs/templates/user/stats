@@ -23,8 +23,7 @@
       Login
     </a>
   </div>
-  [% RETURN # Leave this template immediately %]
-[% END -%]
+[% ELSE %]
 <p>
  [% loc('There are n registered people', stats.users, stats.countries.size, stats.pm.size, stats.committed) %]
 </p>
@@ -123,4 +122,5 @@
 [% END %]
 
 </form>
-[% END %]
+[% END # if global.request.user.has_registered %]
+[% END # WRAPPER ui %]

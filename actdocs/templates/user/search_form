@@ -23,8 +23,7 @@
       Login
     </a>
   </div>
-  [% RETURN # Leave this template immediately %]
-[% END -%]
+[% ELSE %]
 <form method="POST" action="[% global.request.r.uri %]" id="user-search">
 
 <fieldset>
@@ -86,5 +85,5 @@
 [% END %]
 
 </form>
-
-[% END %]
+[% END # if global.request.user.has_registered %]
+[% END # WRAPPER ui %]
