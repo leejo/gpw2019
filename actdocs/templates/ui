@@ -83,11 +83,11 @@
               <label for="archiv"><t><de>Workshop</de><en>Conference</en></t>:</label>    
               <select class="selectpicker form-control" id="archiv"><!--style="display: inline-block;width: auto;"-->
                 <option value="index.html" selected="selected">2018</option>
-		<option value="http://act.yapc.eu/gpw2017/">2017</option>
-                <option value="http://act.yapc.eu/gpw2016/">2016</option>
-                <option value="http://act.yapc.eu/gpw2015/">2015</option>
-                <option value="http://act.yapc.eu/gpw2014/">2014</option>
-                <option value="http://act.yapc.eu/gpw2013/">2013</option>
+		<option value="https://act.yapc.eu/gpw2017/">2017</option>
+                <option value="https://act.yapc.eu/gpw2016/">2016</option>
+                <option value="https://act.yapc.eu/gpw2015/">2015</option>
+                <option value="https://act.yapc.eu/gpw2014/">2014</option>
+                <option value="https://act.yapc.eu/gpw2013/">2013</option>
                 <option value="http://conferences.yapceurope.org/gpw2012/">2012</option>
                 <option value="http://conferences.yapceurope.org/gpw2011/">2011</option>
                 <option value="http://conferences.yapceurope.org/gpw2010/">2010</option>
@@ -138,14 +138,12 @@
           </ul>
         </section>
         -->
-        <!-- Eliminiert solange hier "dummy" auftaucht - haj 2018-11-21
         <section>
           <h2><t><de>Andere ACT Konferenzen</de><en>Other ACT conferences</en></t></h2>
           <ul class="mainnav">
             [% PROCESS menus/act_confs %]
           </ul>
         </section>
-        -->
       </aside>
 
 

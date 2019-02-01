@@ -15,7 +15,7 @@ $(document).ready(function(){
     cookie_path: '/gpw2019/',
     cookie_expires: 91,
     css_path: 'scripts/socialshareprivacy/socialshareprivacy.css',
-    uri: 'http://act.yapc.eu/gpw2019/',
+    uri: 'https://act.yapc.eu/gpw2019/',
     txt_help: txt_help,
     settings_perma: settings_perma,
     services: {

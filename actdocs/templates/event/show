@@ -2,7 +2,7 @@
 
 <article itemscope itemtype="http://data-vocabulary.org/Event">
   
-<meta itemprop="url" content="http://act.yapc.eu/[% global.config.uri %]/event/[% event_id %]">
+<meta itemprop="url" content="https://act.yapc.eu/[% global.config.uri %]/event/[% event_id %]">
 [% IF datetime %]
 <meta itemprop="startDate" content="[% date_format(datetime, '%Y-%m-%d') %]T[% date_format(datetime, 'time' ) %]:00+0100">
 <meta itemprop="duration" content="P[% duration %]M">
